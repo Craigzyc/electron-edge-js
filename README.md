@@ -2,7 +2,9 @@
 
 This is a fork of [edge-js](https://github.com/agracio/edge-js) adapted to support [Electron](https://github.com/electron/electron/).
 
-Compatible with
+# This Branch removes all native builds except V17. This saved me around 20MB in my built electron app
+
+Not Compatible with
 
 - Electron 2.x - Node.js v8.9.3.
 - Electron 3.x - Node.js v10.2.0.
@@ -19,6 +21,9 @@ Compatible with
 - Electron 14.x - Node.js v14.17.0
 - Electron 15.x - Node.js v16.5.0
 - Electron 16.x - Node.js v16.9.1
+
+Compatible with
+
 - Electron 17.x - Node.js v16.13.0
 
 Usage is the same as edge or edge-js, replace `require('edge-js')` with `require('electron-edge-js')`:
